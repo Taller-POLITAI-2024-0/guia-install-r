@@ -7,7 +7,7 @@ format:
     transition: fade
     background-transition: fade
     highlight-style: pygments
-    footer: "[POLITAI](https://taller-politai-2023-2.github.io/Guia-instalacion-R/)"
+    footer: "[POLITAI](https://github.com/Taller-POLITAI-2024-0/guia-install-r)"
 ---
 
 ##  {.title}
@@ -34,13 +34,14 @@ Joel Belsasar Ccallocunto
 A
 :::
 
-## Instrucciones {.small}
+## Instrucciones
 
--   En el siguiente enlace van a encontrar los instaladores de R y RStudio Desktop para Windows, Mac, entre otros: <https://posit.co/download/rstudio-desktop/#download>
+-   En el siguiente enlace van a encontrar los instaladores de R y RStudio Desktop para [Windows](https://cran.rstudio.com/bin/windows/), [macOS](https://cran.rstudio.com/bin/macosx/), [entre otros](https://cran.rstudio.com/): <https://posit.co/download/rstudio-desktop/#download>
 
--   Es necesario que se descarguen ambos para seguir el curso: Primero R y luego RStudio.
+-   Es necesario que se descarguen ambos para seguir el curso. Primero R y luego RStudio!
 
--   Tutorial paso a paso: <https://rpubs.com/agscl/tutorial>
+-   Tutorial paso a paso de [González (2023)](https://rpubs.com/agscl): <https://rpubs.com/agscl/tutorial> 
+
 . . .
 
 Todo el proceso es muy intuitivo y simple, pero también lo repasaremos en clase.
@@ -51,13 +52,13 @@ a
 
 :::
 
-## Paso 1: [Descargar R y RStudio]{.flow} {.r-stretch}
+## **Paso 1**: [Descargar R y RStudio]{.flow} {.small} 
 
--   El enlace anterior les llevará a esta página. Aquí elijan la opción **"DOWNLOAD AND INSTALL R"**...
+-   El enlace anterior les llevará a esta página. Aquí elijan la opción **"DOWNLOAD AND INSTALL R"**... 
 
 ![](./images/paso1.jpg)
 
-## 
+##  {.small} 
 
 -   Les va a llevar a la siguiente página, en la que eligirán una de esas opciones, de acuerdo a su sistema operativo:
 
@@ -67,7 +68,7 @@ a
 Enlace directo para instalar R y otras herramientas: [The Comprehensive R Archive Network](https://cran.r-project.org/)
 ::: 
 
-##
+##  {.small} 
 
 -   Por ejemplo, para windows, cliqueen aquí:
 
@@ -75,7 +76,7 @@ Enlace directo para instalar R y otras herramientas: [The Comprehensive R Archiv
 
 -   Una vez descargado, siguen los pasos del instalador por *default* en sus computadoras.
 
-## Paso 2: Descargar RStudio
+## **Paso 2**: Descargar RStudio {.small} 
 
 -   En este caso, escoger la opción 2 para descargar el instalador
 
@@ -84,22 +85,22 @@ Enlace directo para instalar R y otras herramientas: [The Comprehensive R Archiv
 
 -   Una vez descargado siguen los pasos del instalador y listo
 
-## Paso 3: Corroborar la instalación
+## **Paso 3**: Corroborar la instalación
 
 -   Busquen los íconos de R y de RStudio en su escritorio. Si no están allí, escriban el nombre en el buscador de sus sistemas y creen un acceso directo de cada uno en sus escritorios. 
 
 
-![](./images/R_RStudiologo.jpg)
+![](./images/R_RStudiologo.jpg){fig-align="center"}
 
 -   Haremos clic en el segundo logo (RStudio), luego debería aparecerles una pantalla como la que viene...
 
-##
+## {.small} 
 
 - RStudio:
 
 ![](./images/paso3.jpg)
 
-## Ok, pero ¿por qué hemos descargado ambos entornos?
+#### Ok, pero ¿por qué hemos descargado ambos entornos? {.small} 
 
 :::: {.columns}
 
@@ -119,7 +120,7 @@ Enlace directo para instalar R y otras herramientas: [The Comprehensive R Archiv
 
 -   Rstudio es un **[IDE](https://posit.co/products/open-source/rstudio/)**: un interfaz amigable y poderoso para trabajar con R.
 
-## Paso 4: Practiquemos
+## **Paso 4**: Practiquemos {.small} 
 
 -   Una vez instalado ambos entornos, ya podemos proseguir con los paquetes específicos que utilizaremos durante el curso. Por ejemplo, copien y peguen la siguiente linea de código en la pestaña "Console" (panel inferior izquierdo) y presionen la tecla **"Enter"**:
 
@@ -146,6 +147,7 @@ library(tidyverse)
 -   Lean un poco de [Awesome Quarto](https://github.com/mcanouil/awesome-quarto).
 
 ##
+
 ![](images/politai2.png){fig-align="center"}
 
 ## Referencias
