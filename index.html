@@ -8,6 +8,9 @@
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="index_files/libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="index_files/libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.450">
@@ -397,7 +400,7 @@
 <p>Descargando R y Rstudio desde <span class="flow">Posit</span></p>
 </div>
 <div style="font-size: 80px">
-<p>Joel Belsasar Ccallocunto</p>
+<p>Joel Belsasar</p>
 </div>
 <p><i class="fa-brands fa-github fa-1.4xl" aria-label="github"></i> <a href="https://github.com/luccemhu">luccemhu</a> | <i class="fas fa-envelope"></i> a20196510@pucp.edu.pe</p>
 <center>
@@ -422,13 +425,14 @@
 <h2>Instrucciones</h2>
 <ul>
 <li><p>En el siguiente enlace van a encontrar los instaladores de R y RStudio Desktop para <a href="https://cran.rstudio.com/bin/windows/">Windows</a>, <a href="https://cran.rstudio.com/bin/macosx/">macOS</a>, <a href="https://cran.rstudio.com/">entre otros</a>: <a href="https://posit.co/download/rstudio-desktop/#download" class="uri">https://posit.co/download/rstudio-desktop/#download</a></p></li>
-<li><p>Es necesario que se descarguen ambos para seguir el curso. Primero R y luego RStudio!</p></li>
-<li><p>Tutorial paso a paso de <a href="https://rpubs.com/agscl">González (2023)</a>: <a href="https://rpubs.com/agscl/tutorial" class="uri">https://rpubs.com/agscl/tutorial</a></p></li>
+<li><p>Es necesario que descarguen ambos para seguir el curso: primero R y luego RStudio!</p></li>
 </ul>
-<div class="fragment">
 <p>Todo el proceso es muy intuitivo y simple, pero también lo repasaremos en clase.</p>
 <aside class="notes">
-<p>a</p>
+<ul>
+<li>Tutorial paso a paso de <a href="https://rpubs.com/agscl">González (2023)</a>: <a href="https://rpubs.com/agscl/tutorial" class="uri">https://rpubs.com/agscl/tutorial</a></li>
+</ul>
+<p>https://rpubs.com/pepiamodeo/instalacion2023</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -440,7 +444,6 @@
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-</div>
 </section>
 <section id="paso-1-descargar-r-y-rstudio" class="slide level2 small">
 <h2><strong>Paso 1</strong>: <span class="flow">Descargar R y RStudio</span></h2>
@@ -448,13 +451,17 @@
 <li>El enlace anterior les llevará a esta página. Aquí elijan la opción <strong>“DOWNLOAD AND INSTALL R”</strong>…</li>
 </ul>
 
-<img data-src="./images/paso1.jpg" class="r-stretch"></section>
+<img data-src="./images/paso1.jpg" class="r-stretch quarto-figure-center"></section>
 <section id="section-1" class="slide level2 small">
 <h2></h2>
 <ul>
-<li>Les va a llevar a la siguiente página, en la que eligirán una de esas opciones, de acuerdo a su sistema operativo:</li>
+<li>Les va a llevar a la siguiente página, en la que eligirán una de esas opciones de acuerdo a su sistema operativo:</li>
 </ul>
-<p><img data-src="./images/paso1-b.jpg"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="./images/paso1-b.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="./images/paso1-b.jpg"></a></p>
+</figure>
+</div>
 
 <aside><div>
 <p>Enlace directo para instalar R y otras herramientas: <a href="https://cran.r-project.org/">The Comprehensive R Archive Network</a></p>
@@ -465,28 +472,28 @@
 <li>Por ejemplo, para windows, cliqueen aquí:</li>
 </ul>
 
-<img data-src="./images/paso1-d.jpg" class="r-stretch"><ul>
-<li>Una vez descargado, siguen los pasos del instalador por <em>default</em> en sus computadoras.</li>
+<img data-src="./images/paso1-d.jpg" class="r-stretch quarto-figure-center"><ul>
+<li>Una vez descargado, siguen los pasos por <em>default</em> del instalador en sus computadoras.</li>
 </ul>
 </section>
 <section id="paso-2-descargar-rstudio" class="slide level2 small">
 <h2><strong>Paso 2</strong>: Descargar RStudio</h2>
 <ul>
-<li>En este caso, escoger la opción 2 para descargar el instalador</li>
+<li>En este caso, escoger la opción “<strong>2: Install RStudio</strong>” para descargar el instalador:</li>
 </ul>
 
 <img data-src="./images/paso2.jpg" class="r-stretch"><ul>
-<li>Una vez descargado siguen los pasos del instalador y listo</li>
+<li>Una vez descargado siguen los pasos del instalador y listo…</li>
 </ul>
 </section>
-<section id="paso-3-corroborar-la-instalación" class="slide level2">
+<section id="paso-3-corroborar-la-instalación" class="slide level2 small">
 <h2><strong>Paso 3</strong>: Corroborar la instalación</h2>
 <ul>
-<li>Busquen los íconos de R y de RStudio en su escritorio. Si no están allí, escriban el nombre en el buscador de sus sistemas y creen un acceso directo de cada uno en sus escritorios.</li>
+<li>Busquen los íconos de R y RStudio en sus escritorios. Si no los encuentran allí, pueden escribir sus nombres en el buscador de sus sistemas operativos y crear un acceso directo para cada uno en sus escritorios.</li>
 </ul>
 
-<img data-src="./images/R_RStudiologo.jpg" class="r-stretch quarto-figure-center"><ul>
-<li>Haremos clic en el segundo logo (RStudio), luego debería aparecerles una pantalla como la que viene…</li>
+<img data-src="./images/R_RStudiologo.jpg" class="r-stretch quarto-figure-center"><p class="caption">R y RStudio, respectivamente</p><ul>
+<li>En tu escritorio, busca el segundo icono, el cual representa a RStudio. Haz clic en él y deberías ver una pantalla similar a la que se muestra a continuación…</li>
 </ul>
 </section>
 <section id="section-3" class="slide level2 small">
@@ -496,63 +503,84 @@
 </ul>
 
 <img data-src="./images/paso3.jpg" class="r-stretch"></section>
-<section id="ok-pero-por-qué-hemos-descargado-ambos-entornos" class="slide level2 small">
-<h2>Ok, pero ¿por qué hemos descargado ambos entornos?</h2>
+<section id="section-4" class="slide level2 small">
+<h2></h2>
+<h4 id="ok-pero-por-qué-hemos-descargado-ambos-entornos">Ok, pero ¿por qué hemos descargado ambos entornos?</h4>
 <div class="columns">
 <div class="column" style="width:30%;">
-<p><img data-src="./images/R-basic.jpg"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="./images/R-basic.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img data-src="./images/R-basic.jpg"></a></p>
+</figure>
+</div>
 </div><div class="column" style="width:70%;">
 <p><img data-src="./images/Rstudio.jpg"></p>
 </div>
 </div>
 <ul>
-<li><p>R es un lenguaje y un entorno de programación para el análisis estadístico.</p></li>
-<li><p>Rstudio es un <strong><a href="https://posit.co/products/open-source/rstudio/">IDE</a></strong>: un interfaz amigable y poderoso para trabajar con R.</p></li>
+<li><p>R es un lenguaje y un entorno de programación utilizado para el análisis estadístico.</p></li>
+<li><p>Por otro lado, RStudio es un Entorno de Desarrollo Integrado (<strong><a href="https://posit.co/products/open-source/rstudio/">IDE</a></strong>, por sus siglas en inglés): una interfaz amigable y poderosa diseñada, específicamente, para trabajar con R.</p></li>
 </ul>
 </section>
 <section id="paso-4-practiquemos" class="slide level2 small">
 <h2><strong>Paso 4</strong>: Practiquemos</h2>
-<ul>
-<li>Una vez instalado ambos entornos, ya podemos proseguir con los paquetes específicos que utilizaremos durante el curso. Por ejemplo, copien y peguen la siguiente linea de código en la pestaña “Console” (panel inferior izquierdo) y presionen la tecla <strong>“Enter”</strong>:</li>
-</ul>
+<p>Ahora, podemos avanzar con los paquetes específicos que utilizaremos durante el taller. Por ejemplo, copia y pega la siguiente línea de código en la pestaña “<strong>Console</strong>” (panel inferior izquierdo) de RStudio y presiona la tecla “<strong>Enter</strong>”:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1"></a>install.packages("tidyverse”)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 <img data-src="./images/paso4.jpg" class="r-stretch"></section>
-<section id="section-4" class="slide level2">
+<section id="section-5" class="slide level2">
 <h2></h2>
 <ul>
-<li><p>Reconocerán que, automáticamente, empiezan a correr códigos de instalación en el Console. Puede tardar unos segundos, pero les mostrará que se ha instalado exitosamente.</p></li>
-<li><p>Para comprobar que esto sucedió, debemos cargar el paquete “tidyverse”. Para ello, copien en <strong>“<code>Console</code>”</strong> y presionen <strong>“<code>Enter</code>”</strong> el siguiente código:</p></li>
+<li><p>Reconocerán que automáticamente comienzan a ejecutarse códigos de instalación en el “<strong>Console</strong>”. Puede tardar unos segundos, pero les mostrará que se ha instalado exitosamente.</p></li>
+<li><p>Para confirmar que esto ocurrió, debemos cargar el paquete “tidyverse”. Para hacerlo, copien el siguiente código en la pestaña “<strong>Console</strong>” y presionen “<strong>Enter</strong>”:</p></li>
 </ul>
 <div class="sourceCode" id="cb2"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1"></a>library(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="gracias-por-tu-atención" class="slide level2">
-<h2>Gracias por tu atención!</h2>
-<p>¡Espero que la presentación les anime a explorar R y sus diversos usos!</p>
+<section id="gracias-por-su-atención" class="slide level2">
+<h2>¡Gracias por su atención!</h2>
+<p>¡Espero que la presentación les anime a explorar R y sus diversas aplicaciones!</p>
+
+<img data-src="images/politai.png" class="r-stretch quarto-figure-center"></section>
+<section id="referencias" class="slide level2">
+<h2>Referencias:</h2>
 <ul>
-<li>Revisen <a href="https://quarto.org/">Quarto documentation</a>.</li>
-<li>Lean un poco de <a href="https://github.com/mcanouil/awesome-quarto">Awesome Quarto</a>.</li>
+<li>Velásquez, I. (2022). <a href="https://github.com/ivelasq/2022-10-27_intro-to-quarto">Introduction to Quarto</a></li>
+<li><a href="https://flor14.github.io/r_cai_2019/">Introducción al lenguaje R</a>.</li>
+<li><a href="https://occasionaldivergences.com/posts/quarto-questions/">Quarto questions</a> by Marc Dotson</li>
 </ul>
 </section>
-<section id="section-5" class="slide level2">
-<h2></h2>
-
-<img data-src="images/politai2.png" class="r-stretch quarto-figure-center"></section>
-<section id="referencias" class="slide level2">
-<h2>Referencias</h2>
+<section id="más-recursos" class="slide level2 small">
+<h2>Más recursos…</h2>
 <ul>
-<li><a href="https://occasionaldivergences.com/posts/quarto-questions/">Quarto questions</a> by Marc Dotson</li>
-<li>Velásquez, I. (2022). <a href="https://github.com/ivelasq/2022-10-27_intro-to-quarto">Introduction to Quarto</a></li>
-<li>Wickham, H., &amp; Grolemund, G. (2016). R for data science: import, tidy, transform, visualize, and model data. ” O’Reilly Media, Inc.” En <a href="https://r4ds.had.co.nz/">First Edition</a> y <a href="https://r4ds.hadley.nz/">Second Edition</a></li>
-<li>Fernández, M., I. (2020). Ventajas de R como herramienta para el Análisis y Visualización de datos en Ciencias Sociales. Revista Científica de la UCSA, 7(2), 97-111. Epub 00 de agosto de 2020. <a href="https://doi.org/10.18004/ucsa/2409-8752/2020.007.02.097" class="uri">https://doi.org/10.18004/ucsa/2409-8752/2020.007.02.097</a></li>
+<li><a href="https://posit.co/products/cloud/cloud/">Rstudio Cloud desde la web</a></li>
+<li><a href="https://rpubs.com/">RPubs by RStudio</a></li>
+<li><a href="https://github.com/">GitHub</a></li>
+<li><a href="https://quarto.org/">Quarto documentation</a><br>
+</li>
+<li><a href="https://github.com/mcanouil/awesome-quarto">Awesome Quarto</a></li>
+<li><a href="https://www.r-project.org/help.html">RHelp</a><br>
+</li>
+<li><a href="https://www.r-project.org/doc/bib/R-books.html">Libros relacionados con R</a></li>
+<li><a href="https://stackoverflow.com/">StackOverflow</a></li>
+<li><a href="https://r-graph-gallery.com/">The R Graph Gallery</a></li>
 </ul>
-
-<aside><div>
+<aside class="notes">
 <p><em>El contenido de este curso se ofrece bajo una licencia <a href="https://en.wikipedia.org/wiki/Public_domain">Dominio público</a>. El contenido de este curso puede considerarse bajo esta licencia a menos que se notifique de manera diferente.</em></p>
-</div></aside></section>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
 <section id="analiza-datos-electorales-con-r" class="slide level2 r-stretch">
 <h2>Analiza datos electorales con R</h2>
-<iframe width="1280" height="654" src="https://www.youtube.com/embed/lDBE950Mxwg" title="Analiza datos electorales con R" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+<iframe width="1280" height="550" src="https://www.youtube.com/embed/lDBE950Mxwg" title="Analiza datos electorales con R" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
 </iframe>
 <p></p><div id="youtube-frame" style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0;"><iframe width="100%" height="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/lDBE950Mxwg&amp;t" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
 
@@ -560,7 +588,7 @@
 <p><a href="https://github.com/Taller-POLITAI-2024-0/guia-install-r">POLITAI</a></p>
 </div>
 <aside><div>
-<p>Source: <a href="https://www.youtube.com/@Datapolitica">Data política</a> en YouTube</p>
+<p>Fuente: <a href="https://www.youtube.com/@RLadiesLima">R-Ladies Lima (2021)</a>. YouTube</p>
 </div></aside></section>
     </div>
   </div>
@@ -919,6 +947,7 @@
       }
     });
     </script>
+    
     
 
 </body></html>

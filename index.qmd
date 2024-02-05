@@ -17,7 +17,7 @@ Descargando R y Rstudio desde [Posit]{.flow}
 :::
 
 ::: {style="font-size: 80px"}
-Joel Belsasar Ccallocunto
+Joel Belsasar
 :::
 
 {{< fa brands github size=1.4xl >}} [luccemhu](https://github.com/luccemhu) | <i class="fas fa-envelope"></i> a20196510@pucp.edu.pe
@@ -38,17 +38,18 @@ A
 
 -   En el siguiente enlace van a encontrar los instaladores de R y RStudio Desktop para [Windows](https://cran.rstudio.com/bin/windows/), [macOS](https://cran.rstudio.com/bin/macosx/), [entre otros](https://cran.rstudio.com/): <https://posit.co/download/rstudio-desktop/#download>
 
--   Es necesario que se descarguen ambos para seguir el curso. Primero R y luego RStudio!
+-   Es necesario que descarguen ambos para seguir el curso: primero R y luego RStudio!
 
--   Tutorial paso a paso de [González (2023)](https://rpubs.com/agscl): <https://rpubs.com/agscl/tutorial> 
 
-. . .
+
+
 
 Todo el proceso es muy intuitivo y simple, pero también lo repasaremos en clase.
 
 ::: notes
+-   Tutorial paso a paso de [González (2023)](https://rpubs.com/agscl): <https://rpubs.com/agscl/tutorial> 
 
-a
+https://rpubs.com/pepiamodeo/instalacion2023
 
 :::
 
@@ -56,13 +57,13 @@ a
 
 -   El enlace anterior les llevará a esta página. Aquí elijan la opción **"DOWNLOAD AND INSTALL R"**... 
 
-![](./images/paso1.jpg)
+![](./images/paso1.jpg){.lightbox}
 
 ##  {.small} 
 
--   Les va a llevar a la siguiente página, en la que eligirán una de esas opciones, de acuerdo a su sistema operativo:
+-   Les va a llevar a la siguiente página, en la que eligirán una de esas opciones de acuerdo a su sistema operativo:
 
-![](./images/paso1-b.jpg)
+![](./images/paso1-b.jpg){.lightbox}
 
 ::: aside
 Enlace directo para instalar R y otras herramientas: [The Comprehensive R Archive Network](https://cran.r-project.org/)
@@ -72,27 +73,26 @@ Enlace directo para instalar R y otras herramientas: [The Comprehensive R Archiv
 
 -   Por ejemplo, para windows, cliqueen aquí:
 
-![](./images/paso1-d.jpg)
+![](./images/paso1-d.jpg){.lightbox}
 
--   Una vez descargado, siguen los pasos del instalador por *default* en sus computadoras.
+-   Una vez descargado, siguen los pasos por *default* del instalador en sus computadoras.
 
 ## **Paso 2**: Descargar RStudio {.small} 
 
--   En este caso, escoger la opción 2 para descargar el instalador
+-   En este caso, escoger la opción "**2: Install RStudio**" para descargar el instalador:
 
 
 ![](./images/paso2.jpg)
 
--   Una vez descargado siguen los pasos del instalador y listo
+-   Una vez descargado siguen los pasos del instalador y listo...
 
-## **Paso 3**: Corroborar la instalación
+## **Paso 3**: Corroborar la instalación  {.small} 
 
--   Busquen los íconos de R y de RStudio en su escritorio. Si no están allí, escriban el nombre en el buscador de sus sistemas y creen un acceso directo de cada uno en sus escritorios. 
+-   Busquen los íconos de R y RStudio en sus escritorios. Si no los encuentran allí, pueden escribir sus nombres en el buscador de sus sistemas operativos y crear un acceso directo para cada uno en sus escritorios.
 
+![R y RStudio, respectivamente](./images/R_RStudiologo.jpg){fig-align="center"}
 
-![](./images/R_RStudiologo.jpg){fig-align="center"}
-
--   Haremos clic en el segundo logo (RStudio), luego debería aparecerles una pantalla como la que viene...
+-   En tu escritorio, busca el segundo icono, el cual representa a RStudio. Haz clic en él y deberías ver una pantalla similar a la que se muestra a continuación...
 
 ## {.small} 
 
@@ -100,13 +100,15 @@ Enlace directo para instalar R y otras herramientas: [The Comprehensive R Archiv
 
 ![](./images/paso3.jpg)
 
-#### Ok, pero ¿por qué hemos descargado ambos entornos? {.small} 
+## {.small} 
+
+#### Ok, pero ¿por qué hemos descargado ambos entornos? 
 
 :::: {.columns}
 
 ::: {.column width="30%"}
 
-![](./images/R-basic.jpg)
+![](./images/R-basic.jpg){.lightbox}
 :::
 
 ::: {.column width="70%"}
@@ -116,56 +118,67 @@ Enlace directo para instalar R y otras herramientas: [The Comprehensive R Archiv
 
 ::::
 
-- R es un lenguaje y un entorno de programación para el análisis estadístico. 
+-   R es un lenguaje y un entorno de programación utilizado para el análisis estadístico. 
 
--   Rstudio es un **[IDE](https://posit.co/products/open-source/rstudio/)**: un interfaz amigable y poderoso para trabajar con R.
+-   Por otro lado, RStudio es un Entorno de Desarrollo Integrado (**[IDE](https://posit.co/products/open-source/rstudio/)**, por sus siglas en inglés): una interfaz amigable y poderosa diseñada, específicamente, para trabajar con R.
 
 ## **Paso 4**: Practiquemos {.small} 
 
--   Una vez instalado ambos entornos, ya podemos proseguir con los paquetes específicos que utilizaremos durante el curso. Por ejemplo, copien y peguen la siguiente linea de código en la pestaña "Console" (panel inferior izquierdo) y presionen la tecla **"Enter"**:
+Ahora, podemos avanzar con los paquetes específicos que utilizaremos durante el taller. Por ejemplo, copia y pega la siguiente línea de código en la pestaña "**Console**" (panel inferior izquierdo) de RStudio y presiona la tecla "**Enter**":
 
-```` markdown
+
+````markdown
 install.packages("tidyverse”)
 ````
 
 ![](./images/paso4.jpg)
 
 ## 
--   Reconocerán que, automáticamente, empiezan a correr códigos de instalación en el Console. Puede tardar unos segundos, pero les mostrará que se ha instalado exitosamente.
 
--    Para comprobar que esto sucedió, debemos cargar el paquete "tidyverse". Para ello, copien  en **"`Console`"** y presionen **"`Enter`"** el siguiente código:
+- Reconocerán que automáticamente comienzan a ejecutarse códigos de instalación en el "**Console**". Puede tardar unos segundos, pero les mostrará que se ha instalado exitosamente.
 
-```` markdown
+- Para confirmar que esto ocurrió, debemos cargar el paquete "tidyverse". Para hacerlo, copien el siguiente código en la pestaña "**Console**" y presionen "**Enter**":
+
+````markdown
 library(tidyverse)
 ````
 
-## Gracias por tu atención!
+## ¡Gracias por su atención!
 
-¡Espero que la presentación les anime a explorar R y sus diversos usos!
+¡Espero que la presentación les anime a explorar R y sus diversas aplicaciones!
 
--   Revisen [Quarto documentation](https://quarto.org/).
--   Lean un poco de [Awesome Quarto](https://github.com/mcanouil/awesome-quarto).
+![](images/politai.png){fig-align="center"}
+ 
 
-##
+## Referencias:
 
-![](images/politai2.png){fig-align="center"}
+-   Velásquez, I. (2022). [Introduction to Quarto](https://github.com/ivelasq/2022-10-27_intro-to-quarto) 
+-   [Introducción al lenguaje R](https://flor14.github.io/r_cai_2019/). 
+-   [Quarto questions](https://occasionaldivergences.com/posts/quarto-questions/) by Marc Dotson 
 
-## Referencias
 
--   [Quarto questions](https://occasionaldivergences.com/posts/quarto-questions/) by Marc Dotson
--   Velásquez, I. (2022). [Introduction to Quarto](https://github.com/ivelasq/2022-10-27_intro-to-quarto)
--   Wickham, H., & Grolemund, G. (2016). R for data science: import, tidy, transform, visualize, and model data. " O'Reilly Media, Inc." En [First Edition](https://r4ds.had.co.nz/) y [Second Edition](https://r4ds.hadley.nz/) 
--   Fernández, M., I. (2020). Ventajas de R como herramienta para el Análisis y Visualización de datos en Ciencias Sociales. Revista Científica de la UCSA, 7(2), 97-111. Epub 00 de agosto de 2020. <https://doi.org/10.18004/ucsa/2409-8752/2020.007.02.097>
+## Más recursos... {.small} 
 
-::: aside
+-   [Rstudio Cloud desde la web](https://posit.co/products/cloud/cloud/) 
+-   [RPubs by RStudio](https://rpubs.com/) 
+-   [GitHub](https://github.com/) 
+-   [Quarto documentation](https://quarto.org/)  
+-   [Awesome Quarto](https://github.com/mcanouil/awesome-quarto) 
+-   [RHelp](https://www.r-project.org/help.html)  
+-   [Libros relacionados con R](https://www.r-project.org/doc/bib/R-books.html) 
+-   [StackOverflow](https://stackoverflow.com/) 
+-   [The R Graph Gallery](https://r-graph-gallery.com/) 
+
+::: notes
 *El contenido de este curso se ofrece bajo una licencia [Dominio público](https://en.wikipedia.org/wiki/Public_domain). El contenido de este curso puede considerarse bajo esta licencia a menos que se notifique de manera diferente.* 
 :::
 
 ## Analiza datos electorales con R {.r-stretch}
-<iframe width="1280" height="654" src="https://www.youtube.com/embed/lDBE950Mxwg" title="Analiza datos electorales con R" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="1280" height="550" src="https://www.youtube.com/embed/lDBE950Mxwg" title="Analiza datos electorales con R" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 {{< youtube lDBE950Mxwg&t >}}
 
 ::: aside
-Source: [Data política](https://www.youtube.com/@Datapolitica) en YouTube
+Fuente: [R-Ladies Lima (2021)](https://www.youtube.com/@RLadiesLima). YouTube
 :::
