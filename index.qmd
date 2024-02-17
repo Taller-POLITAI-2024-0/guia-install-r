@@ -90,7 +90,7 @@ Enlace directo para instalar R y otras herramientas: [The Comprehensive R Archiv
 
 -   Busquen los íconos de R y RStudio en sus escritorios. Si no los encuentran allí, pueden escribir sus nombres en el buscador de sus sistemas operativos y crear un acceso directo para cada uno en sus escritorios.
 
-![R y RStudio, respectivamente](./images/R_RStudiologo.jpg){fig-align="center"}
+![Íconos de R y RStudio, respectivamente](./images/R_RStudiologo.jpg){fig-align="center"}
 
 -   En tu escritorio, busca el segundo icono, el cual representa a RStudio. Haz clic en él y deberías ver una pantalla similar a la que se muestra a continuación...
 
@@ -143,18 +143,17 @@ install.packages("tidyverse”)
 library(tidyverse)
 ````
 
-## ¡Gracias por su atención!
+## 
 
-¡Espero que la presentación les anime a explorar R y sus diversas aplicaciones!
-
+###
 ![](images/politai.png){fig-align="center"}
  
 
 ## Referencias:
 
--   Velásquez, I. (2022). [Introduction to Quarto](https://github.com/ivelasq/2022-10-27_intro-to-quarto) 
--   [Introducción al lenguaje R](https://flor14.github.io/r_cai_2019/). 
--   [Quarto questions](https://occasionaldivergences.com/posts/quarto-questions/) by Marc Dotson 
+-   Velásquez, I. (27 de octubre de 2022). *Introduction to Quarto*. R-Ladies St. Louis. <https://github.com/ivelasq/2022-10-27_intro-to-quarto> 
+-   Bellini, Y., & D’Andrea, M., F. (17 de septiembre de 2019). *Introducción al lenguaje R*. 11vo Congreso Argentino de Agroinformática. <https://flor14.github.io/r_cai_2019/> 
+-   Dotson, M. (14 de octubre de 2022). *Quarto questions*. Occasional Divergences. <https://occasionaldivergences.com/posts/quarto-questions/> by  
 
 
 ## Más recursos... {.small} 
