@@ -153,7 +153,7 @@ library(tidyverse)
 
 -   Velásquez, I. (27 de octubre de 2022). *Introduction to Quarto*. R-Ladies St. Louis. <https://github.com/ivelasq/2022-10-27_intro-to-quarto> 
 -   Bellini, Y., & D’Andrea, M., F. (17 de septiembre de 2019). *Introducción al lenguaje R*. 11vo Congreso Argentino de Agroinformática. <https://flor14.github.io/r_cai_2019/> 
--   Dotson, M. (14 de octubre de 2022). *Quarto questions*. Occasional Divergences. <https://occasionaldivergences.com/posts/quarto-questions/> by  
+-   Dotson, M. (14 de octubre de 2022). *Quarto questions*. Occasional Divergences. <https://occasionaldivergences.com/posts/quarto-questions/>
 
 
 ## Más recursos... {.small} 
